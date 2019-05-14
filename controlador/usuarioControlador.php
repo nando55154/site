@@ -34,6 +34,7 @@ function editar($id) {
         $dados["usuario"] = pegarUsuarioPorId($id);
         exibir("usuario/formulario", $dados);
     }
+    
 }
 
 function visualizar($id) {
